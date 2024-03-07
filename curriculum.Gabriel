@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo ADS</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Estilos customizados -->
+    <style>
+        body {
+            background-color: #1E1E2E; /* Cor de fundo mais escura */
+            color: #E1E1E6; /* Cor do texto clara */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #252540; /* Fundo do container */
+            border-radius: 8px; /* Bordas arredondadas */
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra leve */
+        }
+        .section-title {
+            color: #4E9CAF; /* Cor de destaque */
+            border-bottom: 2px solid #4E9CAF; /* Linha de destaque */
+            margin-bottom: 20px;
+            padding-bottom: 5px;
+        }
+        a.hoverable:hover {
+            color: #78E08F; /* Muda a cor para verde claro */
+            text-decoration: none; /* Remove o sublinhado */
+        }
+        .info-item {
+            margin-bottom: 10px; /* Espaçamento entre itens */
+        }
+        .info-label {
+            font-weight: bold;
+        }
+        /* Mais estilização conforme necessário */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-5">Currículo</h1>
+
+        <!-- Informações Pessoais -->
+        <section class="personal-info mb-5">
+            <h2 class="section-title">Informações Pessoais</h2>
+            <img src="https://media.licdn.com/dms/image/D4E35AQGhd_qy8LqQ4g/profile-framedphoto-shrink_800_800/0/1696322471242?e=1710255600&v=beta&t=BPfJ8wTGJCb0NTVYzMNT14I8qczAnEa-hvM3lO4EDMs" alt="Minha Foto" class="rounded-circle mb-3" style="width:100px; height:auto;">
+            <!-- Informações com ícones do Bootstrap para visual melhor -->
+            <div class="info-item"><span class="info-label">Nome:</span> Gabriel Andrade</div>
+            <div class="info-item"><span class="info-label">Email:</span> gabriel.andrade21@fatec.sp.gov.br</div>
+            <div class="info-item"><span class="info-label">Telefone:</span> (17) 98208-3518</div>
+            <div class="info-item"><span class="info-label">LinkedIn:</span> <a href="https://www.linkedin.com/in/gabriel-ramos-lopez-andrade-a1a5b7248/" class="hoverable">Meu LinkedIn</a></div>
+            <div class="info-item"><span class="info-label">Github:</span> <a href="https://github.com/GabrielAndrade19840101" class="hoverable">Meu GitHub</a></div>
+        </section>
+
+        <!-- Educação -->
+        <section class="education mb-5">
+            <h2 class="section-title">Educação</h2>
+            <div>
+                <h3>Análise e Desenvolvimento de Sistemas - FATEC Jales</h3>
+                <div><span class="info-label">Data de Conclusão:</span> Mês/Ano</div>
+                <div><span class="info-label">Descrição:</span> Breve descrição sobre o curso, projetos relevantes, trabalhos, etc.</div>
+            </div>
+        </section>
+        
+        <!-- Habilidades -->
+        <section class="skills mb-5">
+            <h2 class="section-title">Habilidades</h2>
+            <ul>
+                <li>Programação: Java, Python, HTML, CSS, JavaScript</li>
+                <li>Bancos de Dados: MySQL, MongoDB</li>
+                <li>Ferramentas: Git, Docker, Jenkins</li>
+                <li>Frameworks: Spring Boot, React</li>
+            </ul>
+        </section>
+        
+        <!-- Experiência -->
+        <section class="experience">
+            <h2 class="section-title">Experiência</h2>
+            <!-- Adicionar detalhes da experiência aqui -->
+        </section>
+    </div>
+
+    <!-- Bootstrap JS e dependências -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
